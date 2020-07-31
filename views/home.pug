@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p welcome to my record app
+  form(action="/", method="POST")
+  input(type="email", placeholder= "Enter Your Email Address")
+  button(type="Submit") Submit 
